@@ -16113,6 +16113,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2221884650079287736, guid: c27a78bfb39d74e8bbbc085a2dcee573, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3377273608332547971, guid: 0925a6601ba1c4b638f96cdbfe6bfe19, type: 3}
+    - target: {fileID: 2221884650079287736, guid: c27a78bfb39d74e8bbbc085a2dcee573, type: 3}
       propertyPath: handGun
       value: 
       objectReference: {fileID: 495777522}
