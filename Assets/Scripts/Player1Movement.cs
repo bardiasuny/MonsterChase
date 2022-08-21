@@ -7,7 +7,7 @@ public class Player1Movement : MonoBehaviour
     public float speed = 5f;
     public float moveForce = 5f;
     public float JumpForce = 11f;
-    public float maxVelocity = 22f;
+    public float maxVelocity = 20f;
     private float movementX;
     private SpriteRenderer sr;
 
