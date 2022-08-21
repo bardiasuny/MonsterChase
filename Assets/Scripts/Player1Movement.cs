@@ -16,6 +16,8 @@ public class Player1Movement : MonoBehaviour
 
     private readonly string WALK_ANIMATION = "Walk";
     private readonly string JUMP_ANIMATION = "Jump";
+    private readonly string KICK_ANIMATION = "Kick";
+
 
 
     private void Awake()
