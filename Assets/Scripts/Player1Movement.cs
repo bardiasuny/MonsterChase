@@ -192,7 +192,7 @@ public class Player1Movement : MonoBehaviour
     {
         while(isShooting)
         {
-          yield return new WaitForSeconds(0.2f);
+          
 
           spawnBullet = Instantiate(bullet);
 
@@ -213,11 +213,11 @@ public class Player1Movement : MonoBehaviour
 
 
             spawnBullet.transform.position = transform.position;
-             
 
-           
-            
 
+
+
+            yield return new WaitForSeconds(0.2f);
 
 
         }
