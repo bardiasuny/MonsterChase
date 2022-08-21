@@ -199,11 +199,8 @@ public class Player1Movement : MonoBehaviour
 
             if (sr.flipX)
             {
-
                 spawnBullet.GetComponent<Bullet>().isRight = true;
                 spawnBullet.GetComponent<Bullet>().shoot = true;
-
-
             }
             else
             {
